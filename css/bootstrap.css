@@ -2853,7 +2853,7 @@ img {
 .preloader {
 	background: rgba(37, 37, 37, 0.8);
 	bottom: 0;
-	height: 100%;
+	width: 100%;
 	left: 0;
 	position: fixed;
 	right: 0;
@@ -2868,9 +2868,10 @@ img {
 }
 
 .preloader_image {
-	background-image: url(../img/preloader.png);
-	background-position: center;
+	background-image: url(../img/magia-viva-preloader.png);
+	background-position: cover;
 	background-repeat: no-repeat;
+	background-size: contain;
 	height: 256px;
 	left: 50%;
 	margin: -128px 0 0 -128px;
