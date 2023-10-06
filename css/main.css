@@ -19333,7 +19333,7 @@ a img.aligncenter {
 }
 
 .toggle_menu.mobile-active {
-	background-color: #0b0e1e;
+	background-color: #fff;
 	border: none;
 	left: auto;
 	margin: 0;
@@ -19393,7 +19393,7 @@ a img.aligncenter {
 
 	.mobile-active .top-nav {
 		background-color: #111;
-		background-color: rgba(0, 0, 0, 0.9);
+		background-color: rgba(0, 0, 0, 1);
 		opacity: 1;
 		visibility: visible;
 		z-index: 1002;
@@ -19437,7 +19437,7 @@ a img.aligncenter {
 	}
 
 	.top-nav .sf-menu a:hover {
-		color: #219bf1;
+		color: #fff;
 	}
 
 	.sf-menu ul {
